@@ -10,7 +10,7 @@ namespace WebApiCrud.Controllers
         SqlConnection con = new SqlConnection("Data Source=DESKTOP-NLRDVF2;Initial Catalog=WebApi;Integrated Security=True");
         public ActionResult Index()
         {
-            return View();
+            return Content("This is update");
         }
         [HttpGet]
         public ActionResult Login()
